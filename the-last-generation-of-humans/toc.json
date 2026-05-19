@@ -1,0 +1,66 @@
+{
+  "title": "The Last Generation of Humans",
+  "description": "A provocative exploration of how AI, biotechnology, climate change, and digital consciousness are converging to create a species that won't recognize itself within 50 years. This book argues that we are the last generation of 'purely human' beings — and examines what comes next, who decides, and whether we should resist or embrace the transformation.",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The End of the Human Era",
+      "description": "Why this generation is the inflection point. The convergence of AI, biotech, and climate pressure creating unprecedented evolutionary pressure. Historical parallels to species-level transitions. The argument that 'human' as we know it has an expiration date."
+    },
+    {
+      "number": 2,
+      "title": "The Intelligence Explosion",
+      "description": "AI surpassing human cognitive abilities across every domain. The timeline from narrow AI to AGI to superintelligence. What happens when machines don't just assist thinking but replace it. The controversial question: if AI can think better than us, what are we for?"
+    },
+    {
+      "number": 3,
+      "title": "Editing the Source Code of Life",
+      "description": "CRISPR, gene drives, and the ability to rewrite human DNA. Designer babies, disease elimination, and the slippery slope to engineered inequality. The ethics of choosing your child's intelligence, appearance, and personality. Who gets access and who gets left behind."
+    },
+    {
+      "number": 4,
+      "title": "The Merger: When Humans Become Machines",
+      "description": "Brain-computer interfaces, neural implants, and Neuralink-style augmentation. The spectrum from therapeutic to enhancement. Digital telepathy, memory uploads, and cognitive enhancement. The point where the line between human and machine disappears."
+    },
+    {
+      "number": 5,
+      "title": "Digital Immortality and the Death of Death",
+      "description": "Mind uploading, digital consciousness, and the quest to live forever. Cryonics, longevity research, and radical life extension. The philosophical crisis: is a digital copy of you still you? What happens to society when the rich never die."
+    },
+    {
+      "number": 6,
+      "title": "The Climate Endgame",
+      "description": "Why climate change isn't just an environmental crisis but an evolutionary one. Forced migration, resource wars, and the collapse of habitability. Geoengineering as a desperate gamble. How environmental pressure accelerates the push toward post-human adaptation."
+    },
+    {
+      "number": 7,
+      "title": "The Obsolescence of Work",
+      "description": "AI automating not just manual labor but creative, intellectual, and emotional work. The collapse of the social contract built on employment. Universal basic income vs. universal basic purposelessness. What humans do when there's nothing left to do."
+    },
+    {
+      "number": 8,
+      "title": "The Fractured Species",
+      "description": "How enhancement technologies will split humanity into biological classes. The enhanced elite vs. the unmodified majority. Genetic haves and have-nots. The possibility of speciation — multiple human subspecies within a century. Neo-feudalism and techno-aristocracy."
+    },
+    {
+      "number": 9,
+      "title": "The War Over Consciousness",
+      "description": "What is consciousness and can machines have it? The hard problem applied to AI and uploaded minds. Legal rights for digital beings. The religious and philosophical crisis when the soul becomes software. Consciousness as the last frontier of human uniqueness — and why it might fall."
+    },
+    {
+      "number": 10,
+      "title": "Children of the Singularity",
+      "description": "What childhood, education, and growing up look like for the generation being born now. AI tutors replacing teachers, genetic screening replacing chance, virtual worlds replacing playgrounds. Raising kids in a world where being human is optional."
+    },
+    {
+      "number": 11,
+      "title": "The Resistance",
+      "description": "The growing movement against technological transformation. Neo-Luddites, bioconservatives, and religious opposition. The Amish model — opting out of progress. Whether resistance is noble preservation or futile denial. The ethics of forcing transformation on those who refuse."
+    },
+    {
+      "number": 12,
+      "title": "What Comes After Us",
+      "description": "Envisioning the post-human future. Homo sapiens as a transitional species. The possible futures: utopian transcendence, dystopian fragmentation, or quiet extinction. A letter to whatever we become. The case for embracing the unknown rather than clinging to what we were."
+    }
+  ]
+}
