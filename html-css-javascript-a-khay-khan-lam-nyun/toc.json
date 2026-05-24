@@ -4,6 +4,16 @@
   "genre": "Programming / Web Development",
   "target_audience": "Web development ကို စတင်လေ့လာလိုသော မြန်မာစာဖတ်သူများ",
   "description": "Web development ကို အစအဆုံး လေ့လာလိုတဲ့ မြန်မာလူငယ်တွေအတွက် ရေးသားထားတဲ့ လက်တွေ့ကျတဲ့ လမ်းညွှန်စာအုပ်ဖြစ်ပါတယ်။ HTML နဲ့ ဝဘ်စာမျက်နှာ ဖွဲ့စည်းခြင်း၊ CSS နဲ့ လှပအောင် ဒီဇိုင်းဆွဲခြင်း၊ JavaScript နဲ့ အသက်ဝင်အောင် လုပ်ဆောင်ခြင်းတို့ကို အဆင့်လိုက် သင်ပေးထားပါတယ်။ ကုဒ်ရေးဖူးခြင်း အတွေ့အကြုံ လုံးဝမရှိသူတွေပါ နားလည်နိုင်အောင် ရှင်းလင်းစွာ ရေးသားထားပြီး၊ အခန်းတိုင်းမှာ လက်တွေ့လေ့ကျင့်ခန်းတွေ ပါဝင်ပါတယ်။",
+  "writing_guidelines": [
+    "ရှင်းပြချက်များကို မြန်မာဘာသာဖြင့် ရေးသားပါ။ သို့သော် အောက်ပါ technical term များကို အင်္ဂလိပ်လို အတိုင်း ထားပါ — ဘာသာပြန်ခြင်း မလုပ်ပါနဲ့။",
+    "HTML tags များကို အင်္ဂလိပ်လို ထားပါ — ဥပမာ <div>, <span>, <header>, <form>, <input>, <a>, <img> စသည်။ ဘယ်တော့မှ ဘာသာပြန်ခြင်း မလုပ်ပါနဲ့။",
+    "CSS properties နှင့် values များကို အင်္ဂလိပ်လို ထားပါ — ဥပမာ margin, padding, display: flex, font-size, background-color, grid-template-columns, @keyframes, :hover စသည်။",
+    "JavaScript keywords များကို အင်္ဂလိပ်လို ထားပါ — ဥပမာ let, const, var, function, return, if, else, for, while, switch, async, await, Promise, console.log(), addEventListener(), querySelector() စသည်။",
+    "Programming concepts/terms များကို အင်္ဂလိပ်လို ထားပါ — ဥပမာ variable, function, array, object, string, number, boolean, loop, callback, event, DOM, API, JSON, parameter, argument, scope, debug, framework, library, responsive, semantic, selector, container, component စသည်။",
+    "Tool နှင့် technology အမည်များကို အင်္ဂလိပ်လို ထားပါ — ဥပမာ VS Code, Browser, Developer Tools, GitHub, GitHub Pages, Node.js, React, Vue, Angular, Tailwind CSS, Bootstrap စသည်။",
+    "Code block များကို code fence (```) ဖြင့် ပြသပါ။ Code ထဲတွင် comment များပါ အင်္ဂလိပ်လို ရေးပါ။ Code block အပြင်ဘက်မှ ရှင်းပြချက်များသာ မြန်မာဘာသာဖြင့် ရေးပါ။",
+    "ပထမအကြိမ် technical term ကို မိတ်ဆက်သောအခါ အင်္ဂလိပ်စာလုံးကို ရှေ့ထားပြီး ကွင်းစကွင်းပိတ်ဖြင့် မြန်မာဘာသာ အဓိပ္ပာယ်ကို ထည့်ပေးပါ — ဥပမာ 'variable (ကိန်းရှင်)' ဟု ရေးပါ၊ 'ကိန်းရှင် (variable)' ဟု မရေးပါနဲ့။ နောက်ပိုင်း ထပ်သုံးသည့်အခါ အင်္ဂလိပ်စာလုံးတစ်ခုထဲ သုံးပါ။"
+  ],
   "chapters": [
     {
       "number": 1,
