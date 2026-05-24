@@ -27,12 +27,12 @@
     },
     {
       "number": 3,
-      "title": "HTML ဆက်စပ်အပိုင်း — လင့်ခ်များ၊ ပုံရိပ်များနှင့် စာရင်းများ",
+      "title": "HTML ဆက်စပ်အပိုင်း — Link များ၊ Image များနှင့် List များ",
       "description": "Hyperlink (<a>) ဖန်တီးခြင်း — အခြားစာမျက်နှာများနှင့် ချိတ်ဆက်ခြင်း။ ပုံရိပ်များ (<img>) ထည့်သွင်းခြင်း — src, alt attribute များ အရေးပါပုံ။ Ordered list (<ol>) နှင့် Unordered list (<ul>) ဖန်တီးခြင်း။ HTML comment ရေးသားခြင်းနှင့် ကုဒ်ကို ဖတ်ရလွယ်အောင် စီစဉ်ခြင်း။ လက်တွေ့ — ကိုယ်ရေးအကျဉ်း ဝဘ်စာမျက်နှာ ဖန်တီးခြင်း။"
     },
     {
       "number": 4,
-      "title": "HTML ဖောင်နှင့် ဇယား — အချက်အလက်စုဆောင်းခြင်းနှင့် ပြသခြင်း",
+      "title": "HTML Form နှင့် Table — အချက်အလက်စုဆောင်းခြင်းနှင့် ပြသခြင်း",
       "description": "HTML Table (<table>, <tr>, <td>, <th>) ဖန်တီးခြင်း — အချက်အလက်များ ဇယားပုံစံ ပြသခြင်း။ HTML Form (<form>) အခြေခံ — Input types အမျိုးမျိုး (text, email, password, number, checkbox, radio, submit)။ Label, placeholder, required attribute များ အသုံးပြုခြင်း။ Textarea နှင့ Select dropdown ထည့်သွင်းခြင်း။ လက်တွေ့ — မှတ်ပုံတင်ဖောင် (Registration form) ဖန်တီးခြင်း။"
     },
     {
