@@ -1,0 +1,109 @@
+{
+  "title": "HTML, CSS နှင့် JavaScript — အခြေခံလမ်းညွှန်",
+  "language": "my",
+  "genre": "Programming / Web Development",
+  "target_audience": "Web development ကို စတင်လေ့လာလိုသော မြန်မာစာဖတ်သူများ",
+  "description": "Web development ကို အစအဆုံး လေ့လာလိုတဲ့ မြန်မာလူငယ်တွေအတွက် ရေးသားထားတဲ့ လက်တွေ့ကျတဲ့ လမ်းညွှန်စာအုပ်ဖြစ်ပါတယ်။ HTML နဲ့ ဝဘ်စာမျက်နှာ ဖွဲ့စည်းခြင်း၊ CSS နဲ့ လှပအောင် ဒီဇိုင်းဆွဲခြင်း၊ JavaScript နဲ့ အသက်ဝင်အောင် လုပ်ဆောင်ခြင်းတို့ကို အဆင့်လိုက် သင်ပေးထားပါတယ်။ ကုဒ်ရေးဖူးခြင်း အတွေ့အကြုံ လုံးဝမရှိသူတွေပါ နားလည်နိုင်အောင် ရှင်းလင်းစွာ ရေးသားထားပြီး၊ အခန်းတိုင်းမှာ လက်တွေ့လေ့ကျင့်ခန်းတွေ ပါဝင်ပါတယ်။",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "ဝဘ်ဖွံ့ဖြိုးရေးဆိုတာ ဘာလဲ — ခရီးစတင်ခြင်း",
+      "description": "ဝဘ်ဆိုတာ ဘာလဲ၊ ဝဘ်ဆိုက်တွေ ဘယ်လို အလုပ်လုပ်သလဲဆိုတဲ့ အခြေခံသဘောတရား။ Frontend နဲ့ Backend ကွာခြားချက်။ HTML, CSS, JavaScript သုံးခု ဘယ်လို ပူးပေါင်းအလုပ်လုပ်သလဲ — အိမ်ဆောက်ခြင်းနဲ့ နှိုင်းယှဉ်ရှင်းပြခြင်း။ ကုဒ်ရေးဖို့ ဘာတွေ လိုအပ်သလဲ — Text editor (VS Code) နဲ့ Browser ပြင်ဆင်ခြင်း။ ပထမဆုံး HTML ဖိုင် ဖန်တီးပြီး Browser မှာ ဖွင့်ကြည့်ခြင်း။"
+    },
+    {
+      "number": 2,
+      "title": "HTML အခြေခံ — ဝဘ်စာမျက်နှာရဲ့ အရိုးစု",
+      "description": "HTML ဆိုတာ ဘာလဲ — Markup Language သဘောတရား။ HTML element, tag, attribute တို့ နားလည်ခြင်း။ စာမျက်နှာဖွဲ့စည်းပုံ — <!DOCTYPE html>, <html>, <head>, <body> တို့ရဲ့ အခန်းကဏ္ဍ။ Heading (<h1> မှ <h6>)၊ Paragraph (<p>)၊ Line break (<br>) တို့ အသုံးပြုခြင်း။ ကိုယ်ရဲ့ ပထမဆုံး ဝဘ်စာမျက်နှာ ရေးသားခြင်း လက်တွေ့လေ့ကျင့်ခန်း။"
+    },
+    {
+      "number": 3,
+      "title": "HTML ဆက်စပ်အပိုင်း — လင့်ခ်များ၊ ပုံရိပ်များနှင့် စာရင်းများ",
+      "description": "Hyperlink (<a>) ဖန်တီးခြင်း — အခြားစာမျက်နှာများနှင့် ချိတ်ဆက်ခြင်း။ ပုံရိပ်များ (<img>) ထည့်သွင်းခြင်း — src, alt attribute များ အရေးပါပုံ။ Ordered list (<ol>) နှင့် Unordered list (<ul>) ဖန်တီးခြင်း။ HTML comment ရေးသားခြင်းနှင့် ကုဒ်ကို ဖတ်ရလွယ်အောင် စီစဉ်ခြင်း။ လက်တွေ့ — ကိုယ်ရေးအကျဉ်း ဝဘ်စာမျက်နှာ ဖန်တီးခြင်း။"
+    },
+    {
+      "number": 4,
+      "title": "HTML ဖောင်နှင့် ဇယား — အချက်အလက်စုဆောင်းခြင်းနှင့် ပြသခြင်း",
+      "description": "HTML Table (<table>, <tr>, <td>, <th>) ဖန်တီးခြင်း — အချက်အလက်များ ဇယားပုံစံ ပြသခြင်း။ HTML Form (<form>) အခြေခံ — Input types အမျိုးမျိုး (text, email, password, number, checkbox, radio, submit)။ Label, placeholder, required attribute များ အသုံးပြုခြင်း။ Textarea နှင့ Select dropdown ထည့်သွင်းခြင်း။ လက်တွေ့ — မှတ်ပုံတင်ဖောင် (Registration form) ဖန်တီးခြင်း။"
+    },
+    {
+      "number": 5,
+      "title": "HTML5 Semantic Elements — အဓိပ္ပာယ်ရှိသော ဖွဲ့စည်းပုံ",
+      "description": "<div> နဲ့ <span> — အခြေခံ container element များ နားလည်ခြင်း။ Semantic HTML ဆိုတာ ဘာလဲ — ဘာကြောင့် အရေးကြီးသလဲ။ <header>, <nav>, <main>, <section>, <article>, <aside>, <footer> တို့ အသုံးပြုခြင်း။ Semantic HTML က SEO နှင့ Accessibility ကို ဘယ်လို အကူအညီပေးသလဲ။ လက်တွေ့ — Blog layout ဖွဲ့စည်းပုံ ဖန်တီးခြင်း။"
+    },
+    {
+      "number": 6,
+      "title": "CSS မိတ်ဆက် — ဝဘ်စာမျက်နှာကို အလှဆင်ခြင်း",
+      "description": "CSS ဆိုတာ ဘာလဲ — Cascading Style Sheets သဘောတရား။ CSS ရေးသားနည်း သုံးမျိုး — Inline, Internal, External stylesheet။ CSS Selector အခြေခံ — Element selector, Class selector, ID selector။ အရောင် (color, background-color)၊ စာလုံး (font-family, font-size, font-weight) ပြောင်းလဲခြင်း။ လက်တွေ့ — HTML စာမျက်နှာကို CSS နဲ့ အလှဆင်ခြင်း ပထမအကြိမ်။"
+    },
+    {
+      "number": 7,
+      "title": "CSS Box Model — ဝဘ်ဒီဇိုင်းရဲ့ အခြေခံအုတ်မြစ်",
+      "description": "Box Model ဆိုတာ ဘာလဲ — Content, Padding, Border, Margin နားလည်ခြင်း။ Width, Height သတ်မှတ်ခြင်းနှင့် box-sizing: border-box အရေးပါပုံ။ Margin collapse ဆိုတာ ဘာလဲ — အစပြုသူတွေ မကြာခဏ တွေ့ရတဲ့ ပြဿနာ။ Display property — block, inline, inline-block ကွာခြားချက်။ လက်တွေ့ — Card component ဒီဇိုင်း ဖန်တီးခြင်း။"
+    },
+    {
+      "number": 8,
+      "title": "CSS Flexbox — ခေတ်မီ Layout စနစ်",
+      "description": "Flexbox မတိုင်ခင် Layout ဘယ်လို ချခဲ့သလဲ — Float နဲ့ ရုန်းကန်ခဲ့ရပုံ အကျဉ်း။ Flex container နဲ့ Flex item သဘောတရား။ flex-direction, justify-content, align-items — အဓိက Flexbox properties များ။ flex-wrap, gap, flex-grow, flex-shrink အသုံးပြုခြင်း။ လက်တွေ့ — Navigation bar နှင့် Card layout ဖန်တီးခြင်း။"
+    },
+    {
+      "number": 9,
+      "title": "CSS Grid — နှစ်ဘက်မြင် Layout စနစ်",
+      "description": "CSS Grid ဆိုတာ ဘာလဲ — Flexbox နဲ့ ဘယ်လို ကွာသလဲ၊ ဘယ်အချိန်မှာ ဘယ်ဟာ သုံးသင့်သလဲ။ Grid container, grid-template-columns, grid-template-rows သတ်မှတ်ခြင်း။ fr unit, repeat(), minmax() function များ အသုံးပြုခြင်း။ Grid gap, grid-column, grid-row — element များ နေရာချထားခြင်း။ လက်တွေ့ — Photo gallery နှင့် Dashboard layout ဖန်တီးခြင်း။"
+    },
+    {
+      "number": 10,
+      "title": "Responsive Design — မျက်နှာပြင်အရွယ်အစားတိုင်းအတွက်",
+      "description": "Responsive design ဆိုတာ ဘာလဲ — ဘာကြောင့် မရှိမဖြစ် လိုအပ်သလဲ။ Media queries အခြေခံ — breakpoint များ သတ်မှတ်ခြင်း။ Mobile-first approach — ဘာကြောင့် သေးတဲ့ မျက်နှာပြင်ကနေ စသင့်သလဲ။ Viewport meta tag နှင့် relative units (%, em, rem, vw, vh) အသုံးပြုခြင်း။ လက်တွေ့ — Mobile-friendly ဝဘ်စာမျက်နှာ ဖန်တီးခြင်း။"
+    },
+    {
+      "number": 11,
+      "title": "JavaScript မိတ်ဆက် — ဝဘ်စာမျက်နှာကို အသက်သွင်းခြင်း",
+      "description": "JavaScript ဆိုတာ ဘာလဲ — Browser ထဲမှာ ဘယ်လို အလုပ်လုပ်သလဲ။ JavaScript ကုဒ် ရေးသားနည်း — <script> tag နှင့် External JS file။ Variable ကြေညာခြင်း — let, const, var ကွာခြားချက်။ Data types — String, Number, Boolean, null, undefined။ Console.log() နဲ့ debugging အခြေခံ — Browser Developer Tools အသုံးပြုခြင်း။"
+    },
+    {
+      "number": 12,
+      "title": "JavaScript Operator များနှင့် Control Flow",
+      "description": "Arithmetic operators (+, -, *, /, %) နှင့် Assignment operators။ Comparison operators (==, ===, !=, !==, >, <) — loose vs strict equality နားလည်ခြင်း။ Logical operators (&&, ||, !) အသုံးပြုခြင်း။ if, else if, else — အခြေအနေစစ်ဆေးခြင်း။ switch statement နှင့် for loop, while loop — ထပ်ခါထပ်ခါ လုပ်ဆောင်ခြင်း။ လက်တွေ့ — ရိုးရှင်းတဲ့ ဂဏန်းခန့်မှန်းခြင်း ဂိမ်း ဖန်တီးခြင်း။"
+    },
+    {
+      "number": 13,
+      "title": "JavaScript Function များနှင့် Array များ",
+      "description": "Function ဆိုတာ ဘာလဲ — ကုဒ်ကို ပြန်သုံးနိုင်အောင် ဖွဲ့စည်းခြင်း။ Function declaration, expression, arrow function ပုံစံများ။ Parameter နှင့် Return value နားလည်ခြင်း။ Array ဖန်တီးခြင်းနှင့ Array methods — push, pop, shift, unshift, forEach, map, filter။ လက်တွေ့ — To-Do List application ရဲ့ logic ပိုင်း ဖန်တီးခြင်း။"
+    },
+    {
+      "number": 14,
+      "title": "DOM Manipulation — HTML ကို JavaScript နဲ့ ထိန်းချုပ်ခြင်း",
+      "description": "DOM (Document Object Model) ဆိုတာ ဘာလဲ — Browser က HTML ကို ဘယ်လို နားလည်သလဲ။ Element ရွေးချယ်ခြင်း — getElementById, querySelector, querySelectorAll။ Element ရဲ့ content, style, attribute များ ပြောင်းလဲခြင်း။ Element အသစ် ဖန်တီးခြင်းနှင့် ဖျက်ခြင်း — createElement, appendChild, remove။ လက်တွေ့ — Dynamic shopping list ဖန်တီးခြင်း။"
+    },
+    {
+      "number": 15,
+      "title": "Event Handling — အသုံးပြုသူနဲ့ အပြန်အလှန်ဆက်သွယ်ခြင်း",
+      "description": "Event ဆိုတာ ဘာလဲ — Click, submit, keypress, mouseover စသည်တို့ နားလည်ခြင်း။ addEventListener() အသုံးပြုခြင်း — Event listener တပ်ဆင်ခြင်း။ Event object နှင့ event.preventDefault() — Form submission ကို ထိန်းချုပ်ခြင်း။ Event delegation — Parent element မှတဆင့် event များ စီမံခြင်း။ လက်တွေ့ — Interactive quiz application ဖန်တီးခြင်း။"
+    },
+    {
+      "number": 16,
+      "title": "JavaScript Object များနှင့် Local Storage",
+      "description": "Object ဆိုတာ ဘာလဲ — Key-value pair များဖြင့် ဒေတာ သိမ်းဆည်းခြင်း။ Object ဖန်တီးခြင်း၊ ဖတ်ခြင်း၊ ပြင်ခြင်း — Dot notation နှင့ Bracket notation။ JSON (JavaScript Object Notation) — ဒေတာဖလှယ်ခြင်းအတွက် Format။ Local Storage — Browser ထဲမှာ ဒေတာ သိမ်းဆည်းခြင်း (setItem, getItem, removeItem)။ လက်တွေ့ — To-Do List application ကို Local Storage နဲ့ ပေါင်းစပ်ခြင်း။"
+    },
+    {
+      "number": 17,
+      "title": "CSS Animation နှင့် Transition — ဝဘ်ကို သက်ဝင်လှုပ်ရှားစေခြင်း",
+      "description": "CSS Transition — hover effect, smooth color change, slide animation အခြေခံ။ Transition property, duration, timing-function, delay သတ်မှတ်ခြင်း။ CSS Animation — @keyframes ဖြင့် ပိုမိုရှုပ်ထွေးသော animation ဖန်တီးခြင်း။ Transform — translate, rotate, scale, skew အသုံးပြုခြင်း။ လက်တွေ့ — Animated landing page ဖန်တီးခြင်း။"
+    },
+    {
+      "number": 18,
+      "title": "Fetch API နှင့် Asynchronous JavaScript",
+      "description": "Synchronous vs Asynchronous — ဘာကြောင့် Async လိုအပ်သလဲ။ Callback function အခြေခံ သဘောတရား။ Promise — Async operation များ စီမံခြင်း (then, catch, finally)။ Fetch API — External API မှ ဒေတာ ယူခြင်း (GET request)။ async/await — ပိုမိုဖတ်ရလွယ်သော Async ကုဒ်ရေးခြင်း။ လက်တွေ့ — Weather app ဖန်တီးခြင်း (Public API အသုံးပြု)။"
+    },
+    {
+      "number": 19,
+      "title": "လက်တွေ့ Project — Personal Portfolio Website ဖန်တီးခြင်း",
+      "description": "Project planning — ဝဘ်ဆိုက်ရဲ့ ဖွဲ့စည်းပုံ စီစဉ်ခြင်း။ HTML structure — Semantic HTML ဖြင့် စာမျက်နှာဖွဲ့စည်းခြင်း (Hero section, About, Skills, Projects, Contact)။ CSS styling — Flexbox/Grid, Responsive design, Animation တို့ ပေါင်းစပ်ခြင်း။ JavaScript functionality — Smooth scrolling, Form validation, Dark mode toggle။ GitHub Pages တွင် အခမဲ့ Host လုပ်ခြင်း — ကမ္ဘာတစ်ဝှမ်း မျှဝေခြင်း။"
+    },
+    {
+      "number": 20,
+      "title": "နောက်တစ်ဆင့် — Web Developer ခရီးလမ်းကြောင်း",
+      "description": "ဒီစာအုပ်မှာ သင်ယူခဲ့တဲ့ အရာတွေ ပြန်လည်သုံးသပ်ခြင်း။ CSS Framework များ — Tailwind CSS, Bootstrap မိတ်ဆက်။ JavaScript Framework များ — React, Vue, Angular ဘာကြောင့် သင်ယူသင့်သလဲ။ Backend ဘက်ကို ချဲ့ထွင်ခြင်း — Node.js, Database အခြေခံ အကြောင်း။ Web Developer အဖြစ် အလုပ်ရှာခြင်း — Portfolio, GitHub profile, Interview ပြင်ဆင်ခြင်း။ မြန်မာနိုင်ငံနှင့် နိုင်ငံတကာ Web Development အလုပ်အကိုင် အခွင့်အလမ်းများ။"
+    }
+  ]
+}
