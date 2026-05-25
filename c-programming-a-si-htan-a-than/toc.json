@@ -1,0 +1,136 @@
+{
+  "title": "C Programming — ကွန်ပျူတာနဲ့ စကားပြောခြင်း အစအဆုံး",
+  "language": "my",
+  "genre": "Programming / Computer Science",
+  "target_audience": "Programming ကို အစကနေ လေ့လာလိုသူများနှင့် ကွန်ပျူတာ အလုပ်လုပ်ပုံကို နက်နက်နဲနဲ နားလည်လိုသော မြန်မာစာဖတ်သူများ",
+  "description": "ကွန်ပျူတာတွေ တကယ်တမ်း ဘယ်လို အလုပ်လုပ်သလဲ ဆိုတာကနေ စပြီး C Programming language ကို အစအဆုံး သင်ပေးမယ့် စာအုပ်ဖြစ်ပါတယ်။ Memory ထဲမှာ data တွေ ဘယ်လို သိမ်းသလဲ၊ CPU က instruction တွေကို ဘယ်လို execute လုပ်သလဲ၊ ကိုယ်ရေးတဲ့ code က machine level မှာ ဘာဖြစ်သွားသလဲ — ဒီအရာတွေအားလုံးကို ရှင်းရှင်းလင်းလင်း နားလည်အောင် ရေးသားထားပါတယ်။ Pointer, memory management, data structure, file I/O စတဲ့ core concept တွေကို လက်တွေ့ ဥပမာတွေနဲ့ တွဲပြီး အဆင့်ဆင့် သင်ပေးထားပါတယ်။",
+  "writing_guidelines": [
+    "ရှင်းပြချက်များကို မြန်မာဘာသာဖြင့် ရေးသားပါ။ သို့သော် အောက်ပါ technical term များကို အင်္ဂလိပ်လို အတိုင်း ထားပါ — ဘာသာပြန်ခြင်း မလုပ်ပါနဲ့။",
+    "C language keywords များကို အင်္ဂလိပ်လို ထားပါ — ဥပမာ int, char, float, double, void, return, if, else, for, while, do, switch, case, break, continue, struct, union, enum, typedef, sizeof, static, extern, const, unsigned, signed, long, short, #include, #define, main() စသည်။",
+    "Programming concepts/terms များကို အင်္ဂလိပ်လို ထားပါ — ဥပမာ variable, function, array, pointer, string, loop, recursion, scope, stack, heap, memory, address, bit, byte, binary, compiler, linker, preprocessor, header file, source file, object file, executable, debug, runtime, compile-time, segmentation fault, buffer overflow, null pointer, dangling pointer, memory leak, data type, type casting, operator, expression, statement, declaration, definition, initialization, assignment, parameter, argument, return value, call by value, call by reference, pass by pointer စသည်။",
+    "Computer architecture/hardware terms များကို အင်္ဂလိပ်လို ထားပါ — ဥပမာ CPU, ALU, RAM, ROM, register, cache, bus, clock cycle, instruction set, fetch-decode-execute, transistor, logic gate, AND, OR, NOT, XOR, flip-flop, program counter, accumulator, I/O, disk, SSD, motherboard စသည်။",
+    "Data structure terms များကို အင်္ဂလိပ်လို ထားပါ — ဥပမာ linked list, node, stack, queue, tree, binary tree, hash table, graph, sorting, searching, insertion, deletion, traversal, Big O, time complexity, space complexity စသည်။",
+    "Operating system/system terms များကို အင်္ဂလိပ်လို ထားပါ — ဥပမာ process, thread, system call, file descriptor, standard input, standard output, standard error, stdin, stdout, stderr, pipe, signal, interrupt, kernel, shell, command line, terminal စသည်။",
+    "Tool နှင့် technology အမည်များကို အင်္ဂလိပ်လို ထားပါ — ဥပမာ GCC, GDB, Makefile, VS Code, Terminal, Linux, Unix, Windows, macOS, Valgrind, Git, GitHub စသည်။",
+    "Code block များကို code fence (```) ဖြင့် ပြသပါ။ Code ထဲတွင် comment များပါ အင်္ဂလိပ်လို ရေးပါ။ Code block အပြင်ဘက်မှ ရှင်းပြချက်များသာ မြန်မာဘာသာဖြင့် ရေးပါ။",
+    "ပထမအကြိမ် technical term ကို မိတ်ဆက်သောအခါ အင်္ဂလိပ်စာလုံးကို ရှေ့ထားပြီး ကွင်းစကွင်းပိတ်ဖြင့် မြန်မာဘာသာ အဓိပ္ပာယ်ကို ထည့်ပေးပါ — ဥပမာ 'pointer (ညွှန်ပြချက်)' ဟု ရေးပါ၊ 'ညွှန်ပြချက် (pointer)' ဟု မရေးပါနဲ့။ နောက်ပိုင်း ထပ်သုံးသည့်အခါ အင်္ဂလိပ်စာလုံးတစ်ခုထဲ သုံးပါ။",
+    "နှိုင်းယှဉ်ခြင်းနှင့် ဥပမာပေးခြင်းတွင် မြန်မာလူငယ်တွေ ရင်းနှီးသော နေ့စဉ်ဘဝ ဥပမာများကို အသုံးပြုပါ — ဥပမာ memory ကို ဗီရိုအံဆွဲနဲ့ နှိုင်းယှဉ်ခြင်း၊ pointer ကို လိပ်စာကတ်နဲ့ နှိုင်းယှဉ်ခြင်း စသည်။"
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "ကွန်ပျူတာဆိုတာ ဘာလဲ — လျှပ်စစ်ခလုတ်တွေကနေ တွက်ချက်ခြင်းဆီ",
+      "description": "ကွန်ပျူတာ မတိုင်ခင် လူတွေ ဘယ်လို တွက်ချက်ခဲ့သလဲ — အတိုချုံး သမိုင်းကြောင်း။ Transistor ဆိုတာ ဘာလဲ — လျှပ်စစ်ခလုတ်ရဲ့ ON/OFF သဘောတရားကို နားလည်ခြင်း။ Binary number system — ကွန်ပျူတာ ဘာကြောင့် 0 နဲ့ 1 ပဲ နားလည်သလဲ။ Bit နဲ့ byte — data ရဲ့ အသေးဆုံးယူနစ်များ နားလည်ခြင်း။ Logic gate (AND, OR, NOT, XOR) တို့ဖြင့် ရိုးရှင်းတဲ့ တွက်ချက်မှုတွေ ဘယ်လို လုပ်ဆောင်သလဲ။"
+    },
+    {
+      "number": 2,
+      "title": "CPU, Memory နှင့် ကွန်ပျူတာ ဗိသုကာ — အတွင်းပိုင်းကို ဖွင့်ကြည့်ခြင်း",
+      "description": "CPU (Central Processing Unit) ဆိုတာ ဘာလဲ — ကွန်ပျူတာရဲ့ ဦးနှောက်။ Fetch-Decode-Execute cycle — CPU က instruction တစ်ခုကို ဘယ်လို လုပ်ဆောင်သလဲ အဆင့်ဆင့်။ Register, ALU, program counter တို့ရဲ့ အခန်းကဏ္ဍ။ RAM နဲ့ ROM — memory အမျိုးအစားများ ကွာခြားချက်။ Memory address ဆိုတာ ဘာလဲ — byte တိုင်းမှာ လိပ်စာရှိပုံ ဥပမာဖြင့် ရှင်းပြခြင်း။ Von Neumann architecture — program နဲ့ data ကို memory ထဲမှာ အတူတကွ သိမ်းခြင်း သဘောတရား။"
+    },
+    {
+      "number": 3,
+      "title": "Programming Language ဆိုတာ ဘာလဲ — C ဘာကြောင့် အရေးကြီးသလဲ",
+      "description": "Machine language, assembly language, high-level language — programming language အဆင့်ဆင့် ပြောင်းလဲလာပုံ။ C language ဘယ်လို မွေးဖွားခဲ့သလဲ — Dennis Ritchie နဲ့ Bell Labs အကြောင်း အတိုချုံး။ C ဘာကြောင့် 'Mother of All Languages' လို့ ခေါ်သလဲ — C++, Java, Python, JavaScript စတဲ့ language တွေအပေါ် လွှမ်းမိုးခြင်း။ Compiler ဆိုတာ ဘာလဲ — source code ကနေ machine code ဖြစ်သွားတဲ့ ခရီး (preprocessing, compilation, assembly, linking)။ ပထမဆုံး C program — Hello World ရေးခြင်း၊ compile လုပ်ခြင်းနှင့် run ခြင်း (GCC အသုံးပြု)။"
+    },
+    {
+      "number": 4,
+      "title": "Variable နှင့် Data Type — ကွန်ပျူတာထဲ ဒေတာ သိမ်းခြင်း",
+      "description": "Variable ဆိုတာ ဘာလဲ — memory ထဲက နေရာတစ်ခုကို အမည်ပေးခြင်း။ C ရဲ့ အခြေခံ data type များ — int, float, double, char နှင့် သူတို့ memory ပမာဏ (sizeof)။ Variable declaration, initialization, assignment တို့ ကွာခြားချက်။ signed နှင့် unsigned, short နှင့် long — data type modifier များ။ Type overflow ဆိုတာ ဘာလဲ — ကိန်းဂဏန်း အကြီးဆုံး/အသေးဆုံးတန်ဖိုး ကျော်လွန်သည့်အခါ ဘာဖြစ်သလဲ။ Constant — const နှင့် #define အသုံးပြုခြင်း။ printf() နှင့် format specifier (%d, %f, %c, %s) — output ပြသခြင်း။ scanf() — user ထံမှ input လက်ခံခြင်း။"
+    },
+    {
+      "number": 5,
+      "title": "Operator များ — ဒေတာအပေါ် လုပ်ဆောင်ခြင်း",
+      "description": "Arithmetic operator (+, -, *, /, %) — ဂဏန်းတွက်ချက်ခြင်း။ Integer division vs floating-point division — ဘာကြောင့် 7/2 က 3 ဖြစ်သလဲ။ Relational operator (==, !=, >, <, >=, <=) — နှိုင်းယှဉ်ခြင်း။ Logical operator (&&, ||, !) — logic ပေါင်းစပ်ခြင်း။ Bitwise operator (&, |, ^, ~, <<, >>) — bit level မှာ data ကို ကိုင်တွယ်ခြင်း။ Assignment operator (=, +=, -=, *=, /=, %=) နှင့် increment/decrement (++, --)။ Operator precedence — operator တွေ ဘယ်အစဉ်အတိုင်း execute ဖြစ်သလဲ။ Type casting — explicit နှင့် implicit conversion နားလည်ခြင်း။"
+    },
+    {
+      "number": 6,
+      "title": "Control Flow — ဆုံးဖြတ်ခြင်းနှင့် ထပ်ခါတလဲလဲ လုပ်ဆောင်ခြင်း",
+      "description": "if, else if, else — အခြေအနေအလိုက် ဆုံးဖြတ်ခြင်း။ Nested if statement နှင့် ternary operator (? :)။ switch-case — တန်ဖိုးအလိုက် လမ်းကြောင်း ခွဲခြင်း၊ break နှင့် default။ for loop — အကြိမ်ရေ သတ်မှတ်ပြီး loop ပတ်ခြင်း။ while loop နှင့် do-while loop — ကွာခြားချက်နှင့် သင့်တော်သော အခြေအနေများ။ Nested loop — loop ထဲမှာ loop (multiplication table ဥပမာဖြင့်)။ break နှင့် continue — loop ကို ထိန်းချုပ်ခြင်း။ goto statement — ဘာကြောင့် တတ်နိုင်သမျှ ရှောင်သင့်သလဲ။ လက်တွေ့ — ဂဏန်းခန့်မှန်းခြင်း ဂိမ်းနှင့် pattern printing program များ။"
+    },
+    {
+      "number": 7,
+      "title": "Function — ကုဒ်ကို စနစ်တကျ ဖွဲ့စည်းခြင်း",
+      "description": "Function ဆိုတာ ဘာလဲ — ဘာကြောင့် code ကို function တွေခွဲရေးသင့်သလဲ (modularity, reusability, readability)။ Function declaration (prototype), definition, call — သုံးဆင့် နားလည်ခြင်း။ Parameter နှင့် return value — data အဝင်အထွက် စီမံခြင်း။ Call by value — C မှာ argument passing ဘယ်လို အလုပ်လုပ်သလဲ (copy ကူးခြင်း)။ Scope — local variable နှင့် global variable ကွာခြားချက်။ Static variable — function call တွေကြားမှာ တန်ဖိုး ထိန်းသိမ်းခြင်း။ Recursion — function က သူ့ကိုယ်သူ ခေါ်ခြင်း (factorial, Fibonacci ဥပမာများ)။ Stack frame — function call တိုင်း memory ထဲမှာ ဘာဖြစ်သလဲ ပုံဖြင့် ရှင်းပြခြင်း။"
+    },
+    {
+      "number": 8,
+      "title": "Array — ဒေတာအတွဲလိုက် သိမ်းဆည်းခြင်း",
+      "description": "Array ဆိုတာ ဘာလဲ — data type တူတဲ့ element တွေကို ဆက်တိုက် memory ထဲ သိမ်းခြင်း။ Array declaration, initialization, accessing elements — index 0 ကနေ စပုံ။ Array size နှင့် bounds checking — C မှာ ဘာကြောင့် array out of bounds ကို ကိုယ်တိုင် ဂရုစိုက်ရသလဲ။ Array နှင့် loop — element တွေကို တစ်ခုချင်း process လုပ်ခြင်း။ Multi-dimensional array — 2D array (matrix) နှင့် nested loop။ Array ကို function ထဲ pass ခြင်း — array name သည် pointer ဖြစ်ပုံ။ Character array နှင့် string — null terminator ('\\0') အရေးပါပုံ။ String function များ — strlen, strcpy, strcat, strcmp (string.h)။ လက်တွေ့ — ကျောင်းသားအမှတ်စာရင်း program နှင့် ရိုးရှင်းတဲ့ sorting algorithm (bubble sort)။"
+    },
+    {
+      "number": 9,
+      "title": "Pointer — C ရဲ့ အစွမ်းထက်ဆုံး လက်နက်",
+      "description": "Memory address ပြန်လည်သုံးသပ်ခြင်း — variable တိုင်းရဲ့ address ကို & operator နဲ့ ရယူခြင်း။ Pointer ဆိုတာ ဘာလဲ — address ကို သိမ်းဆည်းတဲ့ variable (int *ptr)။ Dereference operator (*) — pointer မှတဆင့် တန်ဖိုးကို ဖတ်ခြင်း/ရေးခြင်း။ Pointer နဲ့ function — call by reference ပုံစံ (swap function ဥပမာ)။ Pointer arithmetic — pointer ကို +, - လုပ်ခြင်းနှင့် array ထဲ navigate လုပ်ခြင်း။ Pointer နှင့် array ဆက်နွယ်ပုံ — array name သည် first element ရဲ့ pointer ဖြစ်ခြင်း။ Pointer to pointer (double pointer) — **ptr သဘောတရား။ NULL pointer — pointer ကို initialize မလုပ်ဘဲ သုံးခြင်းရဲ့ အန္တရာယ်။ Dangling pointer နှင့် wild pointer — common pointer pitfall များ။ void pointer — generic pointer အဖြစ် အသုံးပြုခြင်း။"
+    },
+    {
+      "number": 10,
+      "title": "Dynamic Memory Allocation — Memory ကို ကိုယ်တိုင် စီမံခြင်း",
+      "description": "Stack memory vs heap memory — ဘာကွာသလဲ၊ ဘယ်အချိန် ဘယ်ဟာ သုံးသလဲ ပုံဖြင့် ရှင်းပြခြင်း။ malloc() — heap ပေါ်မှာ memory ခွဲဝေခြင်း။ calloc() — memory ခွဲဝေပြီး 0 နဲ့ initialize လုပ်ခြင်း။ realloc() — ခွဲဝေပြီးသား memory ကို အရွယ်အစား ပြောင်းခြင်း။ free() — memory ပြန်လွှတ်ခြင်း — ဘာကြောင့် မရှိမဖြစ် လိုအပ်သလဲ။ Memory leak — free() ခေါ်မေ့ခြင်းရဲ့ အကျိုးဆက်များ။ Dynamic array — compile-time မှာ size မသိတဲ့အခါ array ဖန်တီးခြင်း။ Valgrind — memory error တွေကို ရှာဖွေခြင်း မိတ်ဆက်။ လက်တွေ့ — user input အရ dynamic array resize လုပ်ခြင်း program။"
+    },
+    {
+      "number": 11,
+      "title": "Struct နှင့် Union — ကိုယ်ပိုင် Data Type ဖန်တီးခြင်း",
+      "description": "Struct ဆိုတာ ဘာလဲ — data type အမျိုးမျိုးကို တစ်ခုတည်းအဖြစ် ပေါင်းစည်းခြင်း (ဥပမာ — ကျောင်းသားရဲ့ အမည်, အသက်, အမှတ်)။ Struct declaration, initialization, accessing members (dot operator)။ Struct နှင့် pointer — arrow operator (->) အသုံးပြုခြင်း။ Struct ကို function ထဲ pass ခြင်း — by value vs by pointer ကွာခြားချက်။ Nested struct — struct ထဲမှာ struct ထည့်ခြင်း။ Array of struct — struct element တွေကို array အဖြစ် စီမံခြင်း။ typedef — data type ကို alias ပေးခြင်း။ Union — struct နဲ့ ဘယ်လို ကွာသလဲ — memory sharing သဘောတရား။ enum — related constant များကို name ပေးခြင်း။ Bit field — memory ကို bit level မှာ ခွဲဝေခြင်း အခြေခံ။ လက်တွေ့ — ကျောင်းသား မှတ်တမ်း စီမံခန့်ခွဲရေး program။"
+    },
+    {
+      "number": 12,
+      "title": "File I/O — ဖိုင်များနှင့် အလုပ်လုပ်ခြင်း",
+      "description": "ဘာကြောင့် file I/O လိုအပ်သလဲ — program ပိတ်ပြီးနောက် data မပျောက်ရအောင် သိမ်းခြင်း။ File pointer (FILE *) နှင့် fopen() — file ဖွင့်ခြင်း (mode: r, w, a, rb, wb)။ fclose() — file ပြန်ပိတ်ခြင်းရဲ့ အရေးပါပုံ။ Text file — fprintf(), fscanf(), fgets(), fputs() တို့ဖြင့် ဖတ်ခြင်း/ရေးခြင်း။ Binary file — fread(), fwrite() တို့ဖြင့် struct data ကို file ထဲ သိမ်းခြင်း/ဖတ်ခြင်း။ fseek(), ftell(), rewind() — file ထဲ နေရာရွှေ့ခြင်း (random access)။ Error handling — file ဖွင့်မရခြင်း စစ်ဆေးခြင်း (NULL check)။ stdin, stdout, stderr — standard stream များ နားလည်ခြင်း။ Command line argument — argc, argv[] အသုံးပြုခြင်း။ လက်တွေ့ — ကျောင်းသား မှတ်တမ်းကို file ထဲ save/load လုပ်ခြင်း program။"
+    },
+    {
+      "number": 13,
+      "title": "Preprocessor နှင့် Header File — Compile မတိုင်ခင် ဖြစ်ပျက်ခြင်း",
+      "description": "C preprocessor ဆိုတာ ဘာလဲ — compiler မလုပ်ခင် source code ကို ပြင်ဆင်ခြင်း။ #include — header file တွေ ထည့်သွင်းခြင်း (<stdio.h> vs \"myheader.h\")။ #define — macro ဖန်တီးခြင်း (constant နှင့် function-like macro)။ #ifdef, #ifndef, #endif — conditional compilation (include guard)။ ကိုယ်ပိုင် header file ဖန်တီးခြင်း — declaration နှင့် definition ခွဲခြားခြင်း။ Multi-file project — source file များစွာဖြင့် program ရေးခြင်း (extern keyword)။ Makefile အခြေခံ — compilation process ကို automate လုပ်ခြင်း။ လက်တွေ့ — header file နှင့် multiple source file ပါဝင်တဲ့ project ဖွဲ့စည်းခြင်း။"
+    },
+    {
+      "number": 14,
+      "title": "Linked List — Dynamic Data Structure ပထမခြေလှမ်း",
+      "description": "Array ရဲ့ ကန့်သတ်ချက်များ — fixed size, insertion/deletion ခက်ခဲခြင်း။ Linked list ဆိုတာ ဘာလဲ — node တွေကို pointer နဲ့ ချိတ်ဆက်ခြင်း (self-referential struct)။ Singly linked list — node ဖန်တီးခြင်း, insertion (head, tail, middle), deletion, traversal။ Memory ထဲမှာ linked list ဘယ်လို ရှိနေသလဲ — ပုံဖြင့် ရှင်းပြခြင်း (array နဲ့ နှိုင်းယှဉ်)။ Doubly linked list — forward နှင့် backward navigate လုပ်နိုင်ခြင်း။ Circular linked list — tail node က head ကို ပြန်ညွှန်ခြင်း။ Array vs linked list — ဘယ်အချိန် ဘယ်ဟာ သုံးသင့်သလဲ trade-off များ (time complexity, space complexity)။ လက်တွေ့ — singly linked list ကို အပြည့်အဝ implement လုပ်ခြင်း (CRUD operations)။"
+    },
+    {
+      "number": 15,
+      "title": "Stack နှင့် Queue — ဒေတာ စီစဉ်ခြင်းနည်းလမ်းများ",
+      "description": "Stack ဆိုတာ ဘာလဲ — LIFO (Last In, First Out) သဘောတရား (ပန်းကန်ပုံးနဲ့ နှိုင်းယှဉ်)။ Stack operations — push, pop, peek/top, isEmpty, isFull။ Array-based stack implementation။ Linked list-based stack implementation။ Stack ရဲ့ real-world application — function call stack, undo operation, expression evaluation။ Queue ဆိုတာ ဘာလဲ — FIFO (First In, First Out) သဘောတရား (တန်းစီခြင်းနဲ့ နှိုင်းယှဉ်)။ Queue operations — enqueue, dequeue, front, rear, isEmpty, isFull။ Circular queue — queue ရဲ့ space utilization ပြဿနာ ဖြေရှင်းခြင်း။ Stack နှင့် queue ကို ဘယ်အချိန်မှာ ဘယ်ဟာ ရွေးချယ်မလဲ ဆိုတဲ့ ဆုံးဖြတ်ချက်ပြုခြင်း။ လက်တွေ့ — stack ဖြင့် parenthesis matching checker နှင့် queue ဖြင့် task scheduler ရေးခြင်း။"
+    },
+    {
+      "number": 16,
+      "title": "Sorting နှင့် Searching Algorithm — ဒေတာ ရှာဖွေခြင်းနှင့် စီခြင်း",
+      "description": "Algorithm ဆိုတာ ဘာလဲ — ပြဿနာ ဖြေရှင်းခြင်းရဲ့ အဆင့်ဆင့် လုပ်ငန်းစဉ်။ Big O notation — algorithm ရဲ့ efficiency ကို တိုင်းတာခြင်း (O(1), O(n), O(n²), O(log n))။ Linear search — element ကို တစ်ခုချင်း ရှာခြင်း O(n)။ Binary search — sorted array ထဲမှာ ထက်ဝက်ခွဲ ရှာခြင်း O(log n)။ Bubble sort — ရိုးရှင်းဆုံး sorting (O(n²)) — animation-style ရှင်းပြခြင်း။ Selection sort — အသေးဆုံး element ကို ရွေးပြီးစီခြင်း။ Insertion sort — ကတ်ထုပ်စီသလို element ထည့်ပြီးစီခြင်း။ Merge sort — divide and conquer approach (O(n log n))။ Quick sort — pivot ရွေးပြီး partition ခွဲခြင်း (O(n log n) average)။ Algorithm comparison — ဘယ် sorting algorithm ကို ဘယ်အချိန်မှာ သုံးသင့်သလဲ။"
+    },
+    {
+      "number": 17,
+      "title": "Tree နှင့် Hash Table — Advanced Data Structure",
+      "description": "Tree ဆိုတာ ဘာလဲ — hierarchical data structure (parent-child relationship)။ Binary tree — node တစ်ခုမှာ child နှစ်ခုသာ ရှိခြင်း (left, right)။ Binary search tree (BST) — ordered binary tree (left < root < right)။ BST operations — insertion, search, deletion, traversal (inorder, preorder, postorder)။ Tree traversal ကို recursion ဖြင့် implement လုပ်ခြင်း။ Hash table ဆိုတာ ဘာလဲ — key-value pair data structure (O(1) lookup)။ Hash function — key ကို index ပြောင်းခြင်း သဘောတရား။ Collision handling — chaining (linked list) နှင့် open addressing။ Hash table vs array vs linked list — ဘယ်အချိန် ဘယ်ဟာ ရွေးမလဲ ဆိုတဲ့ trade-off များ။ လက်တွေ့ — BST ဖြင့် dictionary program နှင့် hash table ဖြင့် phone book program။"
+    },
+    {
+      "number": 18,
+      "title": "Bitwise Operation နှင့် Low-Level Programming",
+      "description": "Binary representation ပြန်လည်သုံးသပ်ခြင်း — integer, character, negative number (two's complement) တို့ memory ထဲ ဘယ်လို သိမ်းသလဲ။ Bitwise operator (&, |, ^, ~, <<, >>) — bit level မှာ data ကို ကိုင်တွယ်ခြင်း အသေးစိတ်။ Bit masking — specific bit ကို set, clear, toggle, check လုပ်ခြင်း။ Bit shifting — <<, >> operator တို့ဖြင့် multiply/divide by power of 2။ Flag/permission system ဖန်တီးခြင်း — bitwise operation လက်တွေ့ အသုံးချမှု။ Endianness — big-endian နှင့် little-endian byte order နားလည်ခြင်း။ Floating-point representation — IEEE 754 standard အကြောင်း ခြုံငုံသုံးသပ်။ ဘာကြောင့် 0.1 + 0.2 != 0.3 ဖြစ်သလဲ — floating-point precision ပြဿနာ ရှင်းပြခြင်း။"
+    },
+    {
+      "number": 19,
+      "title": "Function Pointer နှင့် Advanced C Technique များ",
+      "description": "Function pointer ဆိုတာ ဘာလဲ — function ရဲ့ address ကို pointer ထဲ သိမ်းခြင်း။ Function pointer declaration, assignment, calling — syntax နားလည်ခြင်း။ Callback function — function pointer ကို argument အဖြစ် pass ခြင်း (qsort ဥပမာ)။ Array of function pointers — menu-driven program ဥပမာဖြင့်။ Typedef ဖြင့် function pointer type ကို ရှင်းလင်းအောင် ရေးခြင်း။ Variadic function — argument အရေအတွက် မသိတဲ့ function (printf ကို ဥပမာအဖြစ် လေ့လာခြင်း)။ Volatile keyword — compiler optimization ကို ကာကွယ်ခြင်း။ Memory alignment နှင့် padding — struct size ဘာကြောင့် မျှော်လင့်ထားတာနဲ့ ကွာသလဲ။ လက်တွေ့ — function pointer ဖြင့် calculator program နှင့် generic sorting function ရေးခြင်း။"
+    },
+    {
+      "number": 20,
+      "title": "Error Handling နှင့် Defensive Programming",
+      "description": "C မှာ exception handling မရှိခြင်း — return value, errno, setjmp/longjmp approach များ။ errno — system error code နားလည်ခြင်း (perror, strerror)။ Return value convention — error ကို ဘယ်လို signal ပေးသလဲ (-1, NULL, 0)။ assert() — development time မှာ assumption စစ်ဆေးခြင်း။ Input validation — user input ကို ဘယ်လို စစ်ဆေးသင့်သလဲ (buffer overflow ကာကွယ်ခြင်း)။ Common security vulnerability — buffer overflow, format string attack, integer overflow တို့ နားလည်ခြင်း။ Safe string handling — strncpy, snprintf, fgets အသုံးပြုခြင်း (gets ဘာကြောင့် ရှောင်ရသလဲ)။ Defensive programming principles — fail fast, check every return value, minimize trust။ Debugging technique — GDB အခြေခံ (breakpoint, step, print, backtrace)။ လက်တွေ့ — robust user input handling program နှင့် GDB ဖြင့် bug ရှာဖွေခြင်း။"
+    },
+    {
+      "number": 21,
+      "title": "Operating System နှင့် C — System Programming အခြေခံ",
+      "description": "Operating system ဆိုတာ ဘာလဲ — hardware နှင့် software ကြားခံ (kernel, shell, system call)။ Process ဆိုတာ ဘာလဲ — running program တစ်ခုရဲ့ memory layout (text, data, heap, stack segment)။ System call — OS ရဲ့ service တွေကို ခေါ်ယူခြင်း (open, read, write, close vs fopen, fread, fwrite, fclose)။ File descriptor — low-level file I/O နားလည်ခြင်း (0=stdin, 1=stdout, 2=stderr)။ Process creation — fork() ဖြင့် child process ဖန်တီးခြင်း အခြေခံ။ Inter-process communication — pipe() အခြေခံ။ Signal handling — signal(), SIGINT, SIGTERM နားလည်ခြင်း။ ဘာကြောင့် C ကို OS development မှာ သုံးသလဲ — hardware access နှင့ performance။"
+    },
+    {
+      "number": 22,
+      "title": "Build System, Testing နှင့် Project Organization",
+      "description": "Real-world C project ဖွဲ့စည်းပုံ — src/, include/, lib/, test/, build/ directory structure။ Makefile အသေးစိတ် — target, dependency, recipe, variable, pattern rule တို့ နားလည်ခြင်း။ Separate compilation — .c file တွေကို .o file တွေအဖြစ် compile ပြီး link ခြင်း (compilation speed ကို ပိုကောင်းအောင်)။ Static library (.a) နှင့် shared library (.so/.dylib) — ဖန်တီးခြင်းနှင့် အသုံးပြုခြင်း။ Unit testing — simple test framework ရေးခြင်း (assert-based)။ Code style — naming convention, indentation, code organization best practice များ။ Documentation — code comment ရေးသားခြင်းနှင့် README ပြင်ဆင်ခြင်း။ Version control — Git အခြေခံ (init, add, commit, diff, log)။ လက်တွေ့ — Makefile, header file, multiple source file, test file ပါဝင်တဲ့ project တစ်ခု အပြည့်အဝ ဖန်တီးခြင်း။"
+    },
+    {
+      "number": 23,
+      "title": "ဘယ်ဆက်သွားမလဲ — C ကနေ အနာဂတ်ဆီ",
+      "description": "ဒီစာအုပ်မှာ သင်ယူခဲ့တဲ့ core concept တွေ ပြန်လည်သုံးသပ်ခြင်း။ C နဲ့ ဆက်လက်လေ့လာဖို့ အကြံပြုစာအုပ် — The C Programming Language (K&R), C Programming: A Modern Approach (K.N. King)။ C++ — C ကနေ object-oriented programming ဆီ ကူးပြောင်းခြင်း။ Embedded systems programming — microcontroller, Arduino, IoT နယ်ပယ်။ Operating system development — Linux kernel source code ဖတ်ခြင်း စတင်နည်း။ Network programming — socket programming အခြေခံ မိတ်ဆက်။ Game development — C ဖြင့် game engine အခြေခံ။ Open source contribution — C project တွေမှာ ပါဝင်ပံ့ပိုးခြင်း (Linux, Git, SQLite, Redis စသည်)။ မြန်မာနိုင်ငံနှင့် နိုင်ငံတကာ system programmer, embedded engineer အလုပ်အကိုင် အခွင့်အလမ်းများ။"
+    }
+  ]
+}
