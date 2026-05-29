@@ -1,0 +1,78 @@
+
+{
+  "title": "Brain Computer Interface Technologies",
+  "description": "A short, clear, beginner-friendly technical book about Brain Computer Interface (BCI) technologies. It explains how BCIs read, decode, and use brain signals; compares non-invasive, semi-invasive, and invasive approaches; introduces core hardware, signal processing, machine learning, applications, risks, ethics, and future directions. Write in simple English with practical examples, short sections, and human-readable explanations for students, builders, and curious technologists.",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The Dream of Connecting Brains and Machines",
+      "description": "Introduce the idea of Brain Computer Interfaces: why humans want to communicate directly with machines, where the field came from, and what problems BCIs try to solve. Explain the difference between science fiction and real BCI systems. Cover major use cases such as restoring communication, controlling prosthetics, rehabilitation, gaming, research, and human-computer interaction. End with a simple roadmap of the book."
+    },
+    {
+      "number": 2,
+      "title": "How the Brain Creates Signals",
+      "description": "Explain the nervous system in simple terms: neurons, synapses, electrical activity, and brain rhythms. Introduce action potentials, local field potentials, EEG rhythms, and the idea that thoughts are not read like words but inferred from patterns. Explain why brain signals are weak, noisy, personal, and difficult to decode."
+    },
+    {
+      "number": 3,
+      "title": "Types of BCI Systems",
+      "description": "Compare non-invasive, semi-invasive, and invasive BCIs. Explain EEG, MEG, fNIRS, ECoG, intracortical microelectrodes, and implanted neural interfaces. Describe the trade-offs between signal quality, safety, cost, comfort, surgical risk, portability, and real-world usability. Include a simple comparison table in prose form."
+    },
+    {
+      "number": 4,
+      "title": "Sensing the Brain: Hardware and Electrodes",
+      "description": "Describe the physical parts of a BCI system: sensors, electrodes, amplifiers, analog-to-digital converters, headsets, implants, wireless modules, batteries, and computing devices. Explain dry vs wet electrodes, electrode placement, impedance, signal quality, and why good hardware design matters. Keep the chapter practical and easy to understand."
+    },
+    {
+      "number": 5,
+      "title": "From Raw Brain Signals to Useful Data",
+      "description": "Explain the signal processing pipeline: recording, filtering, artifact removal, segmentation, feature extraction, and normalization. Cover common noise sources such as eye movement, muscle movement, power-line noise, poor contact, and motion. Introduce frequency bands, event-related potentials, motor imagery signals, and steady-state visual evoked potentials with simple examples."
+    },
+    {
+      "number": 6,
+      "title": "Machine Learning for Brain Decoding",
+      "description": "Explain how machine learning turns brain-signal patterns into commands or predictions. Cover classification, regression, calibration, training data, labels, cross-validation, overfitting, personalization, and real-time inference. Introduce common methods such as LDA, SVM, random forests, CNNs, RNNs, transformers, and self-supervised learning without going too deep into math."
+    },
+    {
+      "number": 7,
+      "title": "Building a Simple BCI Pipeline",
+      "description": "Walk through a practical conceptual pipeline for a simple BCI: choose a signal type, collect data, clean the signal, extract features, train a model, test accuracy, and turn predictions into actions. Use examples such as left-hand vs right-hand motor imagery, attention detection, or a simple EEG keyboard. Include pseudocode-style explanations but avoid heavy implementation details."
+    },
+    {
+      "number": 8,
+      "title": "Medical and Assistive BCI Applications",
+      "description": "Explain how BCIs help people with paralysis, ALS, stroke, spinal cord injury, limb loss, and communication disorders. Cover neural prosthetics, robotic arm control, cursor control, speech decoding, spelling systems, rehabilitation, neurofeedback, and closed-loop stimulation. Emphasize real-world challenges: reliability, training time, clinical safety, cost, and long-term support."
+    },
+    {
+      "number": 9,
+      "title": "Consumer, Creative, and Everyday BCIs",
+      "description": "Explore non-medical BCI use cases such as gaming, meditation, focus tracking, education, art, music, VR/AR, adaptive interfaces, and workplace tools. Explain what current consumer BCIs can and cannot do. Warn against exaggerated claims and explain why most consumer systems detect limited mental states rather than detailed thoughts."
+    },
+    {
+      "number": 10,
+      "title": "Invasive BCIs and Neural Implants",
+      "description": "Explain implanted BCIs in a careful and balanced way. Cover intracortical arrays, flexible electrodes, wireless implants, brain-signal decoding for movement and speech, surgical risks, scar tissue, durability, power, heat, and long-term maintenance. Compare the promise of high-bandwidth neural interfaces with the ethical and medical complexity of putting devices inside the body."
+    },
+    {
+      "number": 11,
+      "title": "Closed-Loop BCIs and Brain Stimulation",
+      "description": "Explain the difference between reading from the brain and writing to the brain. Introduce closed-loop systems that sense neural activity and respond with stimulation or feedback. Cover deep brain stimulation, responsive neurostimulation, sensory feedback for prosthetics, neurorehabilitation, and adaptive systems. Discuss why closed-loop control requires safety, timing, and careful validation."
+    },
+    {
+      "number": 12,
+      "title": "Privacy, Security, and Ethics of Brain Data",
+      "description": "Discuss brain data as sensitive personal data. Explain risks such as mental privacy invasion, identity concerns, consent problems, data misuse, bias, surveillance, hacking, medical dependency, and unequal access. Cover ethical principles: autonomy, safety, transparency, human dignity, fairness, and user control. Keep the tone practical, not alarmist."
+    },
+    {
+      "number": 13,
+      "title": "Limits, Challenges, and Misconceptions",
+      "description": "Explain why BCI is difficult: noisy signals, individual differences, low bandwidth, fatigue, calibration, hardware comfort, biological changes, dataset limitations, and real-world variability. Debunk myths such as full mind reading, instant telepathy, and universal plug-and-play brain control. Show what progress is realistic and what remains hard."
+    },
+    {
+      "number": 14,
+      "title": "The Future of Brain Computer Interfaces",
+      "description": "Explore future directions: better sensors, flexible implants, AI-powered decoding, speech restoration, high-bandwidth assistive devices, brain-to-device ecosystems, neuroadaptive software, standards, regulation, and open research tools. End with a practical learning roadmap for readers who want to study neuroscience, signal processing, machine learning, embedded systems, ethics, and human-centered design."
+    }
+  ]
+}
+
