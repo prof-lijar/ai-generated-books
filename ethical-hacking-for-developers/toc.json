@@ -1,0 +1,47 @@
+
+{
+  "title": "Ethical Hacking for Developers",
+  "description": "A short, practical ethical hacking book written specifically for full-stack developers and software engineers. Skips the basics you already know and jumps straight into how attackers think, how web apps get broken, and how to find and fix vulnerabilities in the code you write every day. Covers reconnaissance, web app exploitation, API attacks, authentication bypass, injection flaws, privilege escalation, network fundamentals, and building your own hacking lab. Written in direct, technical English with real commands, tool names, and code examples.",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Thinking Like an Attacker",
+      "description": "Explain the attacker mindset and why developers need it. Cover the difference between black-box, white-box, and gray-box testing. Introduce the kill chain: reconnaissance, scanning, exploitation, post-exploitation, and reporting. Explain legal boundaries, bug bounty programs, responsible disclosure, and why ethics matter. Briefly cover career paths in offensive security (pentesting, red teaming, bug bounty hunting). The reader is a software engineer — skip the 'what is a computer' stuff and get to the point."
+    },
+    {
+      "number": 2,
+      "title": "Setting Up Your Hacking Lab",
+      "description": "Walk through building a safe, legal practice environment. Cover Kali Linux (VM or WSL), Burp Suite, OWASP ZAP, Metasploit basics, Nmap, Gobuster, ffuf, and essential CLI tools. Set up intentionally vulnerable targets: DVWA, Juice Shop, HackTheBox, TryHackMe, and PortSwigger Web Security Academy. Explain network isolation, snapshots, and why you never test on systems you don't own. Keep it practical — exact commands to get running in under an hour."
+    },
+    {
+      "number": 3,
+      "title": "Reconnaissance and Information Gathering",
+      "description": "Cover passive and active reconnaissance techniques a developer would use against their own apps. Passive: OSINT, DNS enumeration, subdomain discovery (subfinder, amass), Google dorking, Shodan, certificate transparency logs, WHOIS, GitHub/GitLab leak hunting (trufflehog, gitleaks). Active: port scanning with Nmap, service fingerprinting, directory brute-forcing, technology stack detection (Wappalyzer, WhatWeb). Explain how exposed .env files, source maps, debug endpoints, and package.json files leak information. Show how to map an application's attack surface systematically."
+    },
+    {
+      "number": 4,
+      "title": "Web Application Attacks",
+      "description": "The core chapter. Cover the OWASP Top 10 through a developer's lens — you build these systems, now learn to break them. Deep-dive into: XSS (reflected, stored, DOM-based) with real payloads and bypass techniques; SQL injection (classic, blind, time-based, second-order) with sqlmap and manual exploitation; CSRF and how SameSite cookies changed the game; SSRF and how cloud metadata endpoints (169.254.169.254) turn it critical; insecure deserialization; path traversal; file upload attacks; template injection (SSTI); and HTTP request smuggling. For each attack: show the vulnerable code, the exploit, and the fix. Use Node.js/Python/PHP examples the reader already understands."
+    },
+    {
+      "number": 5,
+      "title": "API Hacking and Authentication Bypass",
+      "description": "Cover attacks specific to REST APIs and GraphQL that full-stack developers build daily. API enumeration, BOLA/IDOR, broken function-level authorization, mass assignment, rate limiting bypass, JWT attacks (none algorithm, weak secrets, key confusion), OAuth misconfigurations, session fixation, cookie manipulation, and password reset flow abuse. Cover tools: Postman for manual testing, Burp Suite for interception, and custom scripts. Explain how GraphQL introspection, batching attacks, and nested query DoS work. Show how to test your own APIs before attackers do."
+    },
+    {
+      "number": 6,
+      "title": "Server, Network, and Infrastructure Attacks",
+      "description": "Cover what happens beyond the browser. Linux privilege escalation: SUID binaries, misconfigured sudoers, cron jobs, kernel exploits, and GTFOBins. Basic network attacks: ARP spoofing, man-in-the-middle, DNS poisoning concepts. Cloud misconfigurations: open S3 buckets, overprivileged IAM roles, exposed metadata services, and container escapes. Cover SSH key theft, reverse shells, bind shells, and basic post-exploitation. Introduce Metasploit for exploitation and Linpeas/LinEnum for enumeration. Keep it focused on what a developer deploying to AWS/GCP/Azure needs to know."
+    },
+    {
+      "number": 7,
+      "title": "Writing Exploits and Automation",
+      "description": "Teach the reader to write their own tools since they already code. Cover Python scripting for security: writing port scanners, directory brute-forcers, custom fuzzers, and exploit scripts using requests, socket, pwntools, and BeautifulSoup. Introduce Burp Suite extensions. Cover basic buffer overflow concepts (stack-based) for understanding CVEs, not for writing zero-days. Show how to read and adapt public exploits from ExploitDB responsibly. Explain fuzzing web inputs and how to automate repetitive security testing in CI/CD pipelines."
+    },
+    {
+      "number": 8,
+      "title": "Defense, Reporting, and What Comes Next",
+      "description": "Tie it all together from both sides. Cover secure coding practices the reader should adopt immediately: input validation, parameterized queries, CSP headers, CORS configuration, secrets management, dependency scanning (Snyk, npm audit), SAST/DAST in CI/CD. Explain how to write a professional penetration test report: executive summary, findings with severity ratings (CVSS), proof of concept, remediation steps. Cover certifications worth pursuing (CEH, OSCP, eJPT, PNPT) and continued learning paths. End with a challenge: audit your own production app using everything from this book."
+    }
+  ]
+}
