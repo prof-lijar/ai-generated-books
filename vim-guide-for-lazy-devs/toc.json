@@ -1,85 +1,62 @@
 {
   "title": "Vim Guide for Lazy Devs",
-  "description": "The ultimate zero-fluff, pure command, shortcut, and operator-pairing reference guide for developers on Linux.",
-  "sections": [
+  "genre": "Developer Reference / Productivity Guide",
+  "description": "A zero-fluff, pure command and shortcut reference guide for developers on Linux. This book bypasses long explanations, historical context, and theoretical concepts to deliver instant keyboard muscle memory for maximum text-editing speed.",
+  "chapters": [
     {
-      "title": "1. Hard Survival & Leaving Vim",
-      "chapters": [
-        { "title": "Opening & Creating Files", "file": "01_opening_files.md" },
-        { "title": "Saving & Quitting (Force, All, and Short-keys)", "file": "01_saving_quitting.md" },
-        { "title": "Crash Recovery & Handling .swp Files", "file": "01_crash_recovery.md" }
-      ]
+      "number": 1,
+      "title": "Hard Survival & Leaving Vim",
+      "description": "The absolute bare minimum commands required to handle files without breaking things. Covers opening files, safe saving, forcing a quick exit, and recovering from unexpected terminal crashes by handling leftover .swp files."
     },
     {
-      "title": "2. High-Speed Navigation & Jump Lists",
-      "chapters": [
-        { "title": "Basic Motions (HJKL & Multipliers)", "file": "02_basic_motions.md" },
-        { "title": "Word & Token Leaps (w, b, e, W, B, E)", "file": "02_word_leaps.md" },
-        { "title": "Line Anchors & Text Boundaries (0, ^, $, g_)", "file": "02_line_anchors.md" },
-        { "title": "Screen Scrolling & View Positioning (Ctrl+d/u, zt, zz, zb)", "file": "02_viewport_scroll.md" },
-        { "title": "Targeted Line Jumping & Match Pairs (%)", "file": "02_targeted_jumping.md" },
-        { "title": "Single-Line Character Searching (f, F, t, T, ;, ,)", "file": "02_inline_search.md" },
-        { "title": "Marking Positions & Jump History Navigation (m, `, Ctrl+o, Ctrl+i)", "file": "02_marks_jumps.md" }
-      ]
+      "number": 2,
+      "title": "High-Speed Navigation & Jump Lists",
+      "description": "Moving through a codebase without touching the arrow keys. Covers basic HJKL movements, word and token leaps (w, b, e, W, B, E), line anchors (0, ^, $, g_), screen scrolling (Ctrl+d/u, zt, zz, zb), matching bracket jumps (%), single-line character searches (f, F, t, T), and traversing the jump history list (Ctrl+o, Ctrl+i)."
     },
     {
-      "title": "3. Precision Editing & Text Operations",
-      "chapters": [
-        { "title": "Entering Insert Mode Variants (i, I, a, A, o, O)", "file": "03_insert_modes.md" },
-        { "title": "Inline Corrections & Replacements (x, r, R, s, S, ~)", "file": "03_inline_corrections.md" },
-        { "title": "The Delete Operator Combinations (dw, d$, d0, dd)", "file": "03_delete_operator.md" },
-        { "title": "The Change Operator (cw, ce, c$, cc, C)", "file": "03_change_operator.md" },
-        { "title": "Yanking, Cutting, & Pasting Registers (yy, p, P, \")", "file": "03_yank_paste_registers.md" },
-        { "title": "System Clipboard Interactivity (\"+y, \"+p)", "file": "03_system_clipboard.md" },
-        { "title": "The Magic Dot (.) & Undo/Redo (u, Ctrl+r)", "file": "03_dot_repeat_undo.md" }
-      ]
+      "number": 3,
+      "title": "Precision Editing & Text Operations",
+      "description": "Efficient text modification shortcuts. Covers instant insert mode variants (i, I, a, A, o, O), character replacements (x, r, R, s, ~), delete and change operators paired with motion (dw, d$, dd, cw, ce, C), yank/paste registers, and using the undo/redo/repeat mechanics (u, Ctrl+r, .)."
     },
     {
-      "title": "4. Power-Dev Tactics: Text Objects & Macros",
-      "chapters": [
-        { "title": "Inside/Around Modifiers (ciw, di(, di\", ya{)", "file": "04_text_objects.md" },
-        { "title": "Recording & Executing Macros (q, @, @@)", "file": "04_macros.md" },
-        { "title": "Line Manipulation & Merging (J, gJ, :m)", "file": "04_line_manipulation.md" }
-      ]
+      "number": 4,
+      "title": "System Clipboard Interactivity",
+      "description": "Bridging the gap between Vim and the Linux desktop. Focuses explicitly on targeting the system clipboard registers to seamlessly copy and paste code blocks (+y, +p) directly between Vim and external browser tabs, StackOverflow snippets, or communication tools."
     },
     {
-      "title": "5. Search, Destroy, & Global Replace",
-      "chapters": [
-        { "title": "Pattern Searching & Word Under Cursor (/, ?, n, N, *, #)", "file": "05_pattern_search.md" },
-        { "title": "Global Substitution & Confirmations (:s, :%s, /g, /gc)", "file": "05_global_replace.md" },
-        { "title": "Case Sensitivity Toggles (:set ic, \\c)", "file": "05_case_toggles.md" }
-      ]
+      "number": 5,
+      "title": "Power Tactics: Text Objects & Macros",
+      "description": "Advanced modifications utilizing code structure. Covers rapid changes inside or around structural delimiters like parentheses, brackets, and quotes (ciw, di(, di\", ya{), alongside recording, executing, and repeating automated macros (q, @, @@) for repetitive syntax modifications."
     },
     {
-      "title": "6. Advanced Visual Mode & Multi-Line Editing",
-      "chapters": [
-        { "title": "Visual Character & Visual Line Selection (v, V, gv)", "file": "06_visual_modes.md" },
-        { "title": "Visual Block Column Editing & Multi-line Insert (Ctrl+v, I)", "file": "06_visual_block.md" }
-      ]
+      "number": 6,
+      "title": "Search, Destroy, & Global Replace",
+      "description": "Locating and modifying code patterns instantly. Covers targeted phrase searching (/, ?, n, N), instant matching of the word under the cursor (*, #), global search-and-replace strings across entire files (:s, :%s, /g, /gc), and global case-insensitivity overrides (:set ic, \\c)."
     },
     {
-      "title": "7. Windows, Tabs, and Buffers",
-      "chapters": [
-        { "title": "Viewport Splits & Resizing (Ctrl+w s/v/q/=, :sp, :vsp)", "file": "07_viewport_splits.md" },
-        { "title": "Tab Pages Operations (:tabe, gt, gT, :tabo)", "file": "07_tab_pages.md" },
-        { "title": "Managing In-Memory Buffers (:ls, :bn, :bp, :bd)", "file": "07_buffer_management.md" }
-      ]
+      "number": 7,
+      "title": "Advanced Visual Mode & Column Editing",
+      "description": "Manipulating large sections of text at once. Covers visual character and line highlights (v, V, gv), alongside visual block mode (Ctrl+v) for vertical multi-line column insertions, bullet alignments, and structural indentation shifts."
     },
     {
-      "title": "8. Code Structure & Codebase Navigation",
-      "chapters": [
-        { "title": "Auto-Indentation & Shifting Blocks (=, <, >)", "file": "08_indentation.md" },
-        { "title": "Code Folding Actions (zo, zc, za, zM, zR)", "file": "08_code_folding.md" },
-        { "title": "Tag Jumping & Definitions (Ctrl+], Ctrl+t, gf)", "file": "08_tag_navigation.md" }
-      ]
+      "number": 8,
+      "title": "Windows, Tabs, & Buffers",
+      "description": "Managing a multi-file development workflow within a single terminal instance. Covers horizontal and vertical window splits (:sp, :vsp, Ctrl+w navigation), tab page creation and switching (:tabe, gt, gT), and handling open, in-memory file buffers (:ls, :bn, :bp, :bd)."
     },
     {
-      "title": "9. Linux Integration & Config Tweaks",
-      "chapters": [
-        { "title": "Executing Shell Commands & Piping Output (:!, :r !)", "file": "09_shell_integration.md" },
-        { "title": "Sudo Save Hack (sudo tee %)", "file": "09_sudo_save.md" },
-        { "title": "Dev Essential .vimrc Toggles (number, syntax, paste)", "file": "09_vimrc_oneliners.md" }
-      ]
+      "number": 9,
+      "title": "Codebase Navigation & Structure Hooks",
+      "description": "Traversing large development projects efficiently. Covers automated code blocks alignment and formatting (=, <, >), quick code folding toggles (zo, zc, za, zM, zR), jumping directly to file paths under the cursor (gf), and jumping to function definitions via tag files (Ctrl+], Ctrl+t)."
+    },
+    {
+      "number": 10,
+      "title": "Linux Shell Integration & Sudo Hacks",
+      "description": "Interacting directly with the underlying Linux environment. Covers running arbitrary bash commands without pausing the session (:!), piping external terminal command output directly into the current editing pane (:r !), and rescuing a file when you forgot to open it with root privileges (:w !sudo tee %)."
+    },
+    {
+      "number": 11,
+      "title": "Dev Essential .vimrc Oneliners",
+      "description": "A lightweight configuration cheat-sheet. Lists immediate configurations to place inside the ~/.vimrc configuration file to permanently enable line numbers, fix syntax highlighting colors, handle mouse interactions, and prevent automated formatting glitches during text pastes."
     }
   ]
 }
