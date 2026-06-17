@@ -1,0 +1,85 @@
+{
+  "title": "Vim Guide for Lazy Devs",
+  "description": "The ultimate zero-fluff, pure command, shortcut, and operator-pairing reference guide for developers on Linux.",
+  "sections": [
+    {
+      "title": "1. Hard Survival & Leaving Vim",
+      "chapters": [
+        { "title": "Opening & Creating Files", "file": "01_opening_files.md" },
+        { "title": "Saving & Quitting (Force, All, and Short-keys)", "file": "01_saving_quitting.md" },
+        { "title": "Crash Recovery & Handling .swp Files", "file": "01_crash_recovery.md" }
+      ]
+    },
+    {
+      "title": "2. High-Speed Navigation & Jump Lists",
+      "chapters": [
+        { "title": "Basic Motions (HJKL & Multipliers)", "file": "02_basic_motions.md" },
+        { "title": "Word & Token Leaps (w, b, e, W, B, E)", "file": "02_word_leaps.md" },
+        { "title": "Line Anchors & Text Boundaries (0, ^, $, g_)", "file": "02_line_anchors.md" },
+        { "title": "Screen Scrolling & View Positioning (Ctrl+d/u, zt, zz, zb)", "file": "02_viewport_scroll.md" },
+        { "title": "Targeted Line Jumping & Match Pairs (%)", "file": "02_targeted_jumping.md" },
+        { "title": "Single-Line Character Searching (f, F, t, T, ;, ,)", "file": "02_inline_search.md" },
+        { "title": "Marking Positions & Jump History Navigation (m, `, Ctrl+o, Ctrl+i)", "file": "02_marks_jumps.md" }
+      ]
+    },
+    {
+      "title": "3. Precision Editing & Text Operations",
+      "chapters": [
+        { "title": "Entering Insert Mode Variants (i, I, a, A, o, O)", "file": "03_insert_modes.md" },
+        { "title": "Inline Corrections & Replacements (x, r, R, s, S, ~)", "file": "03_inline_corrections.md" },
+        { "title": "The Delete Operator Combinations (dw, d$, d0, dd)", "file": "03_delete_operator.md" },
+        { "title": "The Change Operator (cw, ce, c$, cc, C)", "file": "03_change_operator.md" },
+        { "title": "Yanking, Cutting, & Pasting Registers (yy, p, P, \")", "file": "03_yank_paste_registers.md" },
+        { "title": "System Clipboard Interactivity (\"+y, \"+p)", "file": "03_system_clipboard.md" },
+        { "title": "The Magic Dot (.) & Undo/Redo (u, Ctrl+r)", "file": "03_dot_repeat_undo.md" }
+      ]
+    },
+    {
+      "title": "4. Power-Dev Tactics: Text Objects & Macros",
+      "chapters": [
+        { "title": "Inside/Around Modifiers (ciw, di(, di\", ya{)", "file": "04_text_objects.md" },
+        { "title": "Recording & Executing Macros (q, @, @@)", "file": "04_macros.md" },
+        { "title": "Line Manipulation & Merging (J, gJ, :m)", "file": "04_line_manipulation.md" }
+      ]
+    },
+    {
+      "title": "5. Search, Destroy, & Global Replace",
+      "chapters": [
+        { "title": "Pattern Searching & Word Under Cursor (/, ?, n, N, *, #)", "file": "05_pattern_search.md" },
+        { "title": "Global Substitution & Confirmations (:s, :%s, /g, /gc)", "file": "05_global_replace.md" },
+        { "title": "Case Sensitivity Toggles (:set ic, \\c)", "file": "05_case_toggles.md" }
+      ]
+    },
+    {
+      "title": "6. Advanced Visual Mode & Multi-Line Editing",
+      "chapters": [
+        { "title": "Visual Character & Visual Line Selection (v, V, gv)", "file": "06_visual_modes.md" },
+        { "title": "Visual Block Column Editing & Multi-line Insert (Ctrl+v, I)", "file": "06_visual_block.md" }
+      ]
+    },
+    {
+      "title": "7. Windows, Tabs, and Buffers",
+      "chapters": [
+        { "title": "Viewport Splits & Resizing (Ctrl+w s/v/q/=, :sp, :vsp)", "file": "07_viewport_splits.md" },
+        { "title": "Tab Pages Operations (:tabe, gt, gT, :tabo)", "file": "07_tab_pages.md" },
+        { "title": "Managing In-Memory Buffers (:ls, :bn, :bp, :bd)", "file": "07_buffer_management.md" }
+      ]
+    },
+    {
+      "title": "8. Code Structure & Codebase Navigation",
+      "chapters": [
+        { "title": "Auto-Indentation & Shifting Blocks (=, <, >)", "file": "08_indentation.md" },
+        { "title": "Code Folding Actions (zo, zc, za, zM, zR)", "file": "08_code_folding.md" },
+        { "title": "Tag Jumping & Definitions (Ctrl+], Ctrl+t, gf)", "file": "08_tag_navigation.md" }
+      ]
+    },
+    {
+      "title": "9. Linux Integration & Config Tweaks",
+      "chapters": [
+        { "title": "Executing Shell Commands & Piping Output (:!, :r !)", "file": "09_shell_integration.md" },
+        { "title": "Sudo Save Hack (sudo tee %)", "file": "09_sudo_save.md" },
+        { "title": "Dev Essential .vimrc Toggles (number, syntax, paste)", "file": "09_vimrc_oneliners.md" }
+      ]
+    }
+  ]
+}
