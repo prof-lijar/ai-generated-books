@@ -1,0 +1,121 @@
+{
+  "title": "The Wave Is Already Here",
+  "subtitle": "Intelligence, Power, and the Dilemma We Cannot Avoid",
+  "genre": "Technology & Society / Future Studies",
+  "description": "Every genuinely useful technology eventually escapes the hands that built it. This book traces that pattern through history, then applies it to the wave now breaking over us — artificial intelligence, synthetic biology, robotics, and quantum computing — and argues that humanity is being forced toward two unacceptable outcomes: catastrophic misuse or permanent surveillance. It ends with a practical framework for finding a narrow path between them.",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Homo Technologicus",
+      "chapters": [2, 3]
+    },
+    {
+      "number": 2,
+      "title": "The Next Wave",
+      "chapters": [4, 5, 6, 7, 8]
+    },
+    {
+      "number": 3,
+      "title": "States of Failure",
+      "chapters": [9, 10, 11, 12]
+    },
+    {
+      "number": 4,
+      "title": "Through the Wave",
+      "chapters": [13, 14]
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Containment Is Not Possible",
+      "part": null,
+      "description": "The central claim stated up front: powerful technologies inevitably spread once they become useful and affordable. Why cost curves, demand, and the diffusion of knowledge defeat every attempt to keep a working technology confined to its inventors. The historical track record of restriction, embargo, and secrecy — and how little of it held."
+    },
+    {
+      "number": 2,
+      "title": "Endless Proliferation",
+      "part": 1,
+      "description": "How technological waves have shaped human history. From fire, agriculture, and metallurgy through printing, steam, electricity, and the internal combustion engine — each wave beginning as an elite curiosity and ending as ambient infrastructure. Proliferation as the default state of anything that works, not the exception."
+    },
+    {
+      "number": 3,
+      "title": "The Containment Problem",
+      "part": 1,
+      "description": "Why controlling advanced technologies becomes increasingly difficult as they grow more general, cheaper, and more software-like. The gap between the speed of invention and the speed of governance. Why nuclear weapons — the one apparent containment success — are the exception that proves the rule, and why the coming wave lacks every property that made that exception possible."
+    },
+    {
+      "number": 4,
+      "title": "The Technology of Intelligence",
+      "part": 2,
+      "description": "The development and future potential of artificial intelligence. From narrow pattern recognition to general-purpose models that write, reason, plan, and act. Scaling, capability overhang, and the compression of research timelines. What it means to build a technology that can improve itself and be pointed at any problem, including the problem of building better technology."
+    },
+    {
+      "number": 5,
+      "title": "The Technology of Life",
+      "part": 2,
+      "description": "Synthetic biology, genetic engineering, and the ability to redesign life. Gene editing, DNA synthesis, and the collapsing cost of reading and writing genomes. Engineered organisms as programmable matter — and the uncomfortable symmetry between a cure and a weapon built from the same toolkit and the same benchtop hardware."
+    },
+    {
+      "number": 6,
+      "title": "The Wider Wave",
+      "part": 2,
+      "description": "Robotics, quantum computing, nanotechnology, energy storage, and the other technologies riding the same current. How they compound: intelligence makes biology faster, biology makes materials stranger, quantum makes cryptography fragile, robotics gives software hands. The wave as a single interlocking system rather than a list of separate breakthroughs."
+    },
+    {
+      "number": 7,
+      "title": "Four Features of the Coming Wave",
+      "part": 2,
+      "description": "What makes this wave structurally different from its predecessors: asymmetry, where small actors gain outsized power; hyper-evolution, where capability improves in months rather than decades; omni-use, where a single technology serves medicine, commerce, and warfare equally well; and autonomy, where systems act without a human in the loop."
+    },
+    {
+      "number": 8,
+      "title": "Unstoppable Incentives",
+      "part": 2,
+      "description": "The economic, geopolitical, scientific, and personal forces driving technological progress forward regardless of consequence. Trillion-dollar markets, national security competition, the prestige structure of research, and the ordinary human desire for health, wealth, and status. Why 'just stop building it' is not a strategy anyone is positioned to execute."
+    },
+    {
+      "number": 9,
+      "title": "The Grand Bargain",
+      "part": 3,
+      "description": "The relationship between citizens and the nation-state: the state's monopoly on violence, its provision of security and services, and the legitimacy it earns in exchange. How this bargain was historically underwritten by the state holding the most powerful technology in society — and what happens to the bargain when that stops being true."
+    },
+    {
+      "number": 10,
+      "title": "Fragility Amplifiers",
+      "part": 3,
+      "description": "How new technologies could intensify cyberattacks, armed conflict, terrorism, and social instability. Automated offense outpacing defense, synthetic media dissolving shared reality, and lone actors reaching capabilities that once required a state. The mechanics by which already-brittle systems — supply chains, power grids, elections, public trust — are pushed past their tolerances."
+    },
+    {
+      "number": 11,
+      "title": "The Future of Nations",
+      "part": 3,
+      "description": "How AI and biotechnology may weaken or transform nation-states. Corporations with the capabilities of governments, governments with the capabilities of surveillance apparatuses, and citizens with the capabilities of both. The rise of entities that are neither state nor company, and the erosion of the territorial container that politics has always assumed."
+    },
+    {
+      "number": 12,
+      "title": "The Dilemma",
+      "part": 3,
+      "description": "Humanity faces two dangerous possibilities: catastrophic misuse or oppressive control. The dilemma stated without softening — either these technologies proliferate to actors who will misuse them, or they are contained by a monitoring apparatus that ends privacy and pluralism. Why most proposed solutions are quietly a choice of one horn over the other."
+    },
+    {
+      "number": 13,
+      "title": "Containment Must Be Possible",
+      "part": 4,
+      "description": "Why society must find a way to govern these technologies despite the argument of Chapter 1. Containment reframed: not the elimination of a technology, but the preservation of meaningful human control over its trajectory. Pessimism aversion, the trap of fatalism, and the case for treating an unsolved problem as unsolved rather than unsolvable."
+    },
+    {
+      "number": 14,
+      "title": "Ten Steps Toward Containment",
+      "part": 4,
+      "description": "A concrete framework for managing the wave: technical safety, audits, choke points, open critics, revenue and profit models that align builders with outcomes, government capacity, international treaties, corporate culture, public movements, and the coalitions that bind them together. What each step does, where it fails alone, and why only the full stack has a chance."
+    },
+    {
+      "number": 15,
+      "title": "Afterword — Life After the Anthropocene",
+      "type": "afterword",
+      "part": null,
+      "description": "A reflection on humanity's future after gaining unprecedented power over intelligence, biology, and the planet. What kind of species emerges on the other side of the wave, what it owes to the one that built the tools, and what it might mean to inherit a world that finally answers to us."
+    }
+  ]
+}
